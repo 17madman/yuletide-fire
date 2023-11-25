@@ -1,0 +1,12 @@
+[package]
+name = "yuletide-fire"
+version = "0.1.0"
+authors = ["Nathan Smith <17madman123@gmail.com>"]
+edition = "2021"
+license = "MIT"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+extism-pdk = "0.3.4"
